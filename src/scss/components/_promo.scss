@@ -1,0 +1,56 @@
+.promo {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  min-height: 769px;
+  background: url(../img/bg.jpeg) center center/cover no-repeat ;
+  &__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__logo {
+    width: 101.62px;
+    height: 23px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 318px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 581px;
+    }
+  &__title {
+    color: var(--light-color);
+    font-family: var(--second-family);
+    font-weight: 400;
+  }
+  &__subtitle {
+    margin: 0;
+    margin-bottom: 221px;
+    color: var(--light-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &__link {
+    position: absolute;
+    bottom: 71px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--light-color);
+    font-family: var(--font-family);
+    font-size: 11px;
+    font-weight: 400;
+    transition: color 0.3s ease-in-out;
+    &:hover {
+      color: var(--main-color);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "OpenSans", sans-serif;
+  --second-family: "BebasNeue", sans-serif;
+  --content-width: 940px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --offset: 32px ;
+
+  // colors
+  --light-color: #fff;
+  --main-color: rgb(0, 164, 229);
+  --second-color: rgb(72, 85, 91);
+}

@@ -1,0 +1,151 @@
+.footer {
+  &__wrapper {
+    background: rgb(23, 24, 25);
+  }
+
+  &__wrapper2 {
+    background: rgb(20, 26, 32);
+    padding-top: 41px;
+    padding-bottom: 50px;
+  }
+
+  &__top {
+    gap: 70px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 0.85px;
+  }
+
+  &__form {
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__mail {
+    padding-left: 16px;
+    height: 40px;
+    width: 250px;
+    align-items: center;
+    background-color: #fff;
+    color: rgb(72, 85, 91);
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0.07px;
+  }
+
+
+
+  &__gs-2 {
+    grid-column: 2 span;
+  }
+
+  &__gs-4 {
+    grid-column: 4 span;
+  }
+
+  .pr-40 {
+    padding-right: 40px;
+  }
+
+  .pr-50 {
+    padding-right: 50px;
+  }
+
+  &__left {
+    flex-direction: column;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  &__logo {
+    margin-bottom: 16px;
+    width: 101.86px;
+    height: 20.99px;
+  }
+
+  &__text {
+    color: var(--light-color);
+    font-family: var(--font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+
+  &__center {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  &__col {
+    &.flex {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+
+  &__links {
+    color: var(--light-color);
+    font-family: var(--font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.85px;
+  }
+
+  &__2span {
+    grid-column: 9/10;
+  }
+
+  &__link {
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.85px;
+    text-align: left;
+  }
+
+  .pt {
+    padding-top: 30px;
+  }
+
+  &__img-w {
+    width: 87px;
+    justify-content: space-between;
+  }
+  &__bot {
+    width: 100vw;
+    background: rgb(23, 24, 25);
+  }
+  &__cr {
+      justify-content: center;
+      align-items: center;
+      padding-top: 40px;
+  }
+
+  &__data {
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0.85px;
+  }
+}

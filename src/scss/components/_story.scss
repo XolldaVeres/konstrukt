@@ -1,0 +1,111 @@
+.story {
+  min-height: 638px;
+  padding-top: 126px;
+  padding-bottom: 80px;
+
+  &__left {
+    grid-column: 6 span;
+    padding-right: 53px;
+  }
+
+  &__right {
+    grid-column: 6 span;
+  }
+
+  &__title {
+    margin-bottom: 92px;
+    color: rgb(72, 85, 91);
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+    span {
+      color: var(--main-color);
+    }
+  }
+
+  &__text {
+    color: rgb(72, 85, 91);
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+  }
+}
+
+.story-card {
+  padding-top: 15px;
+  padding-left: 15px;
+  grid-column: 4 span;
+
+  &--1 {
+    background: url(../img/card/bg1.jpeg) center center/cover no-repeat;
+  }
+
+  &--2 {
+    background: url(../img/card/bg2.jpeg) center center/cover no-repeat;
+  }
+
+  &--3 {
+    background: url(../img/card/bg3.jpeg) center center/cover no-repeat;
+  }
+
+  &__title {
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.19px;
+  }
+}
+
+// проблема в том, что нужно было убрать оболочку и просто расположить объекты по 2 спан они ведь стоят по очереди
+
+
+.story-item {
+  padding-top: 123px;
+  &__title {
+    position: relative;
+    grid-column: 4 span;
+    color: rgb(72, 85, 91);
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 2.31px;
+    &::after {
+      position: absolute;
+      content: '';
+      bottom: 7px;
+      left: 0;
+      width: 50px;
+      height: 2px;
+      background-color: var(--main-color);
+    }
+  }
+
+  &__descr {
+    grid-column: 6 span;
+    padding-right: 47px;
+    color: rgb(72, 85, 91);
+    font-family: var(--font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+  }
+
+  &__btn {
+    grid-column: 2 span;
+  }
+}

@@ -1,0 +1,17 @@
+.title {
+  margin: 0;
+  font-size: 18px;
+  &__big {
+    font-size: 60px;
+  }
+  &__mid {
+    font-size: 30px;
+  }
+  &__min {
+    font-size: 16px;
+  }
+}
+
+.subtitle {
+  margin: 0;
+}
